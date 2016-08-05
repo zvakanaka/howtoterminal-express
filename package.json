@@ -4,7 +4,8 @@
   "description": "Express sub-app wrapper for howtoterminal.com",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/zvakanaka/howtoterminal-express#readme",
   "dependencies": {
-    "bike-list": "zvakanaka/bike-list"
+    "bike-list": "zvakanaka/bike-list",
+    "express": "^4.14.0"
   }
 }
