@@ -1,0 +1,27 @@
+{
+  "name": "howtoterminal-express",
+  "version": "1.0.0",
+  "description": "Express sub-app wrapper for howtoterminal.com",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zvakanaka/howtoterminal-express.git"
+  },
+  "keywords": [
+    "express",
+    "sub-app",
+    "wrapper"
+  ],
+  "author": "Adam Quinton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zvakanaka/howtoterminal-express/issues"
+  },
+  "homepage": "https://github.com/zvakanaka/howtoterminal-express#readme",
+  "dependencies": {
+    "bike-list": "zvakanaka/bike-list"
+  }
+}
