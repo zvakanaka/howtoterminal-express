@@ -24,6 +24,7 @@
   "homepage": "https://github.com/zvakanaka/howtoterminal-express#readme",
   "dependencies": {
     "bike-list": "zvakanaka/bike-list",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "howtoterminal": "zvakanaka/howtoterminal"
   }
 }
