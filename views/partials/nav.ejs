@@ -1,0 +1,35 @@
+<nav class="navbar navbar-inverse">
+  <a class="navbar-brand custom-header-logo" href="../">
+    <img alt="Brand" src="images/howtoterm.gif">
+  </a>
+  <ul class="nav navbar-nav">
+    <% var navs = [  {
+        title: "Home",
+        "link": "/",
+        "tip": "Home Page"
+      },
+      {
+          title: "Photo",
+          "link": "/photo",
+          "tip": "Photo Gallery"
+        },
+      {
+        title: "Scrape",
+        "link": "/scrape",
+        "tip": "Scrape Stuff"
+      }]
+      %>
+
+<%= navs[0]['title'] %>
+
+    <% navs.forEach(function(nav) { %>
+      <% if (nav['link'] == page) { %>
+        <li class="active"><a href="<%= nav['link'] %>"><%= nav['title'] %></a></li>
+      <% } else { %>
+        <li><a href="<%= nav['link'] %>"><%= nav['title'] %></a></li>
+      <% } %>
+    <% }) %>
+
+ </ul>
+  <!-- <p class="navbar-text navbar-right">Signed in as <a href="#" class="navbar-link">Mark Otto</a></p> -->
+</nav>

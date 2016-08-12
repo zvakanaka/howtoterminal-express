@@ -25,6 +25,7 @@
   "dependencies": {
     "bike-list": "zvakanaka/bike-list",
     "express": "^4.14.0",
-    "howtoterminal": "zvakanaka/howtoterminal"
+    "howtoterminal": "zvakanaka/howtoterminal",
+    "node-gallery": "^1.1.0"
   }
 }
